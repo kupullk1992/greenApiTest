@@ -2,6 +2,8 @@
 
 Веб-клиент для обмена текстовыми сообщениями WhatsApp через GREEN-API. Выполнен в рамках тестового задания
 
+[Открыть приложение](https://kupullk1992.github.io/greenApiTest/)
+
 ## Возможности
 
 - Подключение по `apiUrl`, `idInstance` и `apiTokenInstance` с проверкой состояния и настроек инстанса.
@@ -123,6 +125,12 @@ npm run build
 ```sh
 npm run preview
 ```
+
+## Публикация
+
+GitHub Actions проверяет код, запускает тесты и публикует приложение в GitHub Pages при обновлении ветки `main`. Зависимости устанавливаются из `pnpm-lock.yaml`; сборка использует базовый путь `/greenApiTest/` для корректной загрузки ресурсов. Workflow также можно запустить вручную во вкладке Actions.
+
+Адрес приложения: [kupullk1992.github.io/greenApiTest](https://kupullk1992.github.io/greenApiTest/)
 
 ## Документация API
 
